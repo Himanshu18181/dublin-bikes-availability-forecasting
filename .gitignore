@@ -1,0 +1,42 @@
+# ---- Large data & model artifacts (exceed GitHub's 100 MB limit) ----
+# Raw dublinbikes feed — download from Smart Dublin (see README).
+data/raw/*.csv
+# Trained model binary (520 MB). Regenerate with: python src/train_model.py
+outputs/model/*.joblib
+
+# ---- Abandoned Bitcoin AML topic (not part of this project) ----
+elliptic_bitcoin_dataset/
+
+# ---- Node / presentation build ----
+presentation/build/node_modules/
+presentation/build/package-lock.json
+presentation/build/package.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.toc
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# ---- Keep the placeholder so the empty data dir is tracked ----
+!data/raw/PUT_LISTINGS_HERE.txt

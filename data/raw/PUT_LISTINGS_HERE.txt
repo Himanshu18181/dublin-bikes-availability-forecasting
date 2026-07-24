@@ -1,0 +1,19 @@
+Place the Inside Airbnb DETAILED listings file for Dublin in THIS folder:
+
+    listings.csv.gz     (preferred - the detailed file)
+    or listings.csv
+
+Download (free, no account needed):
+    https://insideairbnb.com/get-the-data/
+    -> scroll to "Dublin" -> under "Files" download "listings.csv.gz"
+
+Optional (for nicer maps later):
+    neighbourhoods.geojson
+
+Then run:
+    python src/data_loader.py  --data-dir data/raw
+    python src/train_model.py  --data-dir data/raw --out outputs
+    streamlit run app.py
+
+You can delete this .txt file once the data is in place.
+Tip: any Inside Airbnb city works - just download that city's listings file instead.

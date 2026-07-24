@@ -1,0 +1,29 @@
+{
+  "best_model": "RandomForest",
+  "RandomForest": {
+    "threshold_bikes": 2,
+    "positive_rate_actual": 0.2152644996813257,
+    "precision": 0.7764780271893772,
+    "recall": 0.2796788703524455,
+    "f1": 0.4112352965800159,
+    "confusion": {
+      "tn": 62611,
+      "fp": 1414,
+      "fn": 12651,
+      "tp": 4912
+    }
+  },
+  "naive_baseline": {
+    "threshold_bikes": 2,
+    "positive_rate_actual": 0.2152644996813257,
+    "precision": 0.7766205502875797,
+    "recall": 0.28446165233730003,
+    "f1": 0.4164027337889648,
+    "confusion": {
+      "tn": 62588,
+      "fp": 1437,
+      "fn": 12567,
+      "tp": 4996
+    }
+  }
+}

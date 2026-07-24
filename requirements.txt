@@ -1,0 +1,10 @@
+# All confirmed installed in your environment
+numpy
+pandas
+scikit-learn
+xgboost
+matplotlib
+seaborn
+joblib
+plotly          # interactive charts + map in the dashboard
+streamlit       # dashboard app
